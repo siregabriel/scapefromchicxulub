@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(node --check /tmp/trex-check.js)",
+      "Bash(awk '/<script>/{f=1;next} /<\\\\/script>/{f=0} f' trex-escape.html)",
+      "Bash(node --check /tmp/trex.js)",
+      "Bash(open trex-escape.html)"
+    ]
+  }
+}
